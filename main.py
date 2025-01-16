@@ -2,19 +2,18 @@ import speech_recognition as sr
 import webbrowser
 import pyttsx3
 import musicLibrary
-import requests
-from openai import OpenAI
-from gtts import gTTS
+import requests
 import pygame
 import os
 
 # pip install pygame
 # pip install pocketsphinx
 # pip install pyttsx3
+# pip install pygame
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
-newsapi = ""
+newsapi = "Your_API_KEY"
 
 def speak(text):
     engine.say(text)
