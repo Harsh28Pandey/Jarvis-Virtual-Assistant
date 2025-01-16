@@ -6,6 +6,8 @@ import requests
 import pygame
 import os
 
+# Firstly we will install these types of modules in this main.py python file using pip install module_name then use it as well
+
 # pip install pygame
 # pip install pocketsphinx
 # pip install pyttsx3
