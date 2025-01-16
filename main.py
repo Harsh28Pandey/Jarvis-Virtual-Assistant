@@ -10,6 +10,7 @@ import os
 
 # pip install pygame
 # pip install pocketsphinx
+# pip install puttsx3
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
